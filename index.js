@@ -6,3 +6,10 @@ function writeCards(nameArray, event) {
     }
     return newArray;
 }
+
+function countDown(posInt) {
+    while (posInt >= 0) {
+        console.log(posInt);
+        posInt--;
+    }
+}
